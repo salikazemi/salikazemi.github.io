@@ -8,7 +8,7 @@
   },
   "scripts": {
     "watch-css": "npx @tailwindcss/cli -i ./input.css -o ./output.css --watch",
-    "serve": "live-server src/",
+    "serve": "live-server",
     "start": "concurrently \"yarn watch-css\" \"yarn serve\"",
     "build": "npx @tailwindcss/cli -i ./input.css -o ./output.css --minify"
   },

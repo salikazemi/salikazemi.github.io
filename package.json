@@ -9,7 +9,8 @@
   "scripts": {
     "watch-css": "npx @tailwindcss/cli -i ./input.css -o ./output.css --watch",
     "serve": "live-server src/",
-    "start": "concurrently \"yarn watch-css\" \"yarn serve\""
+    "start": "concurrently \"yarn watch-css\" \"yarn serve\"",
+    "build": "npx @tailwindcss/cli -i ./input.css -o ./output.css --minify"
   },
   "devDependencies": {
     "concurrently": "^9.2.1",

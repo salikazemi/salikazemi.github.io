@@ -7,7 +7,7 @@
     "tailwindcss": "^4.1.13"
   },
   "scripts": {
-    "watch-css": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "watch-css": "npx @tailwindcss/cli -i ./input.css -o ./output.css --watch",
     "serve": "live-server src/",
     "start": "concurrently \"yarn watch-css\" \"yarn serve\""
   },
